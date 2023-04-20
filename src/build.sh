@@ -1,0 +1,3 @@
+
+# g++ u2net_offline.cc -o u2net_offline.out -I /torch/neuware_home/include/ -L /torch/neuware_home/lib64 -l cnrt -l opencv_highgui -l opencv_core -l opencv_imgcodecs -l opencv_imgproc -lglog -lgflags  -lpthread
+/workspace/volume/guojun/Inference/deeplabv3-plus-pytorch-main/offlin_c/gcc-linaro-6.2.1-2016.11-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++ u2net_offline.cc -o u2net_offline.out -I /workspace/volume/guojun/Inference/deeplabv3-plus-pytorch-main/offlin_c/3rd/include/ -L /workspace/volume/guojun/Inference/deeplabv3-plus-pytorch-main/offlin_c/3rd/lib -l cnrt -l opencv_highgui -l opencv_core -l opencv_imgcodecs -lcndev -lcndrv -l opencv_imgproc -lglog -lgflags  -lpthread
